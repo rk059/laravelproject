@@ -14,7 +14,7 @@ jobs:
 
       - name: Unzip files
         run: |
-          unzip node_modules.zip -d extracted
+          unzip node_modules.zip -d node_modules
 
       - name: Commit extracted files
         run: |
